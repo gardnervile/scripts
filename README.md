@@ -43,9 +43,8 @@
 Если ученик найден, возвращается объект Schoolkid. Если ученики с таким именем отсутствуют или найдено несколько, выводится соответствующее сообщение.
 
 ### Исправление оценок
-
-```if schoolkid:
-
+```
+if schoolkid:
     fix_marks(schoolkid)
 ```
 Все двойки и тройки ученика будут заменены на пятёрки. Скрипт выводит количество исправленных оценок.
@@ -63,8 +62,8 @@
 Добавляет похвалу на последнем уроке указанного предмета. Текст похвалы выбирается случайно.
 
 ## Примеры использования
-
-```from utils import find_schoolkid, fix_marks, delete_chastisements_for, create_commendation
+```
+from utils import find_schoolkid, fix_marks, delete_chastisements_for, create_commendation
 
 schoolkid = find_schoolkid('Фролов Иван')
 if schoolkid:
