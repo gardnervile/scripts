@@ -6,7 +6,7 @@
 
 - Поместите файл со скриптами
 
-Создайте файл `utils.py` в корневой папке проекта, рядом с файлом `manage.py`.
+Создайте файл `scripts.py` в корневой папке проекта, рядом с файлом `manage.py`.
 
 Скопируйте в него следующие функции:
 
@@ -32,7 +32,7 @@
 
 Импортируйте функции Внутри shell подключите скрипт:
 
-`from utils import find_schoolkid, fix_marks, delete_chastisements_for, create_commendation`
+`from scripts import find_schoolkid, fix_marks, delete_chastisements_for, create_commendation`
 
 Используйте функции:
 
@@ -63,7 +63,7 @@ if schoolkid:
 
 ## Примеры использования
 ```
-from utils import find_schoolkid, fix_marks, delete_chastisements_for, create_commendation
+from scripts import find_schoolkid, fix_marks, delete_chastisements_for, create_commendation
 
 schoolkid = find_schoolkid('Фролов Иван')
 if schoolkid:
